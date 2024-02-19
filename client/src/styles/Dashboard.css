@@ -1,0 +1,49 @@
+.dash-counts {
+    border: 1px solid var(--nav-bg);
+    margin: 1rem 0;
+    /* background-color: rgb(224, 224, 239); */
+    padding: 1rem;
+}
+
+.counts-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.count {
+    background-color: rgb(220, 220, 245);
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+    width: 30%;
+    text-align: center;
+}
+
+.count-title {
+    font-size: 1.5em;
+    font-weight: 600;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.count-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.count-desc {
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.count-val {
+    font-weight: 700;
+    font-size: 2.5em;
+    margin: 0.5rem 2rem;
+}
+
+.leave-tbl {
+    margin-top: 5rem;
+}

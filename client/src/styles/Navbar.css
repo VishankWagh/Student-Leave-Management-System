@@ -1,0 +1,36 @@
+nav {
+    /* background-color: rgb(188, 216, 255); */
+    background-color: rgb(16, 45, 84);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    font-size: 1.1rem;
+    padding: 1rem 5rem;
+    letter-spacing: 1px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.nav-logo {
+    font-weight: 600;
+    font-size: 1.3em;
+    margin-right: 5rem !important;
+}
+
+.navlink {
+    margin: 0 1.5rem;
+}
+
+.navlink a {
+    text-decoration: none;
+    /* color: white; */
+    color: rgb(224, 224, 255);
+}
